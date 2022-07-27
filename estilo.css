@@ -1,0 +1,142 @@
+html, body,.capa{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid red;
+    background: url(./imagens/capa.png),url(./imagens/ruido.png),linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment :fixed ;
+    
+    overflow-x: hidden;
+
+}
+/*barra de navegação*/
+.img-log{
+    height: 40px;
+    width: 132px;
+    background-repeat: no-repeat;
+    background: url(./imagens/music.com8.png ) no-repeat;
+   
+    display: block;
+    background-size: contain;
+    color: transparent;
+}
+nav.navbar-transparente{
+    background: rebeccapurple;
+    padding: 15px 0;
+    background: rgba(2, 1, 24, 0.3);
+    border: none;
+
+
+}
+.navbar-brand{
+    
+    padding: 5px 15px;
+
+}
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: rgb(150, 138, 138);
+    margin: 15px 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:#9bf0e1;
+
+}
+
+/*imagem de capa*/
+.capa{
+    display: table;
+    width: 100%;
+
+
+}
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+/*imagem de botoes*/
+.btn-custon{
+    color: white;
+    border-radius: 500px;
+    -moz-border-radius: 500px;
+    -webkit-border-radius:500px ;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    transition: background 0.4s, color 0.4s;
+
+}
+.btn-roxo{
+    background: #7c25f8;
+    
+
+}
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: white;
+    
+}
+.btn-branco:hover{
+    background-color: white;
+    color:black;
+}
+.btn-branco {
+    border: 2px solid white;
+
+}
+/*serviço*/
+#serviços{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.albuns{
+    padding: 10px 10px 10px 10px;
+}
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/*tipografica*/
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.06em;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
+#servicos h2, #serviços h3{
+    color: #7c25f8;
+}
+#recursos h3{
+    color: #9bf0e1
+}
+#recursos h2{
+    color:white
+}
+

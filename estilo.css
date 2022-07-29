@@ -1,7 +1,7 @@
 
 html, body,.capa{
     height: 100%;
-    overflow-x: hidden;
+    overflow: auto;
     
 }
 
@@ -75,9 +75,9 @@ nav.navbar-transparente{
     border-radius: 500px;
     -moz-border-radius: 500px;
     -webkit-border-radius:500px ;
-    padding: 10px 35px;
+    
     text-transform: uppercase;
-    margin: 0px 20px;
+    
     transition: background 0.4s, color 0.4s;
 
 }
@@ -121,10 +121,39 @@ nav.navbar-transparente{
 
 /*tipografica*/
 h1{
-    font-size: 100px;
+    
     font-weight: 900;
     letter-spacing: -0.06em;
     margin-bottom: 50px;
+}
+/*-------midia query-----*/
+@media screen and (max-width:767px){
+    h1{
+        font-size: 50px;
+        
+    }
+    .btn-custon{
+        margin: 10px 15px;
+    }
+}
+@media screen and (max-width:768px){
+    h1{
+        font-size: 70px;
+        
+    }
+ 
+}
+@media screen and (max-width:992px){
+    h1{
+        font-size: 80px;
+    }
+   
+}
+@media screen and (max-width:992px){
+    h1{
+        font-size: 100px;
+        
+    }
 }
 h2{
     font-size: 50px;

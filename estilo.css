@@ -1,3 +1,4 @@
+
 html, body,.capa{
     height: 100%;
 }
@@ -41,12 +42,14 @@ nav.navbar-transparente{
     background: rgb(150, 138, 138);
     margin: 15px 10px;
 }
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
     color: white;
 
+
 }
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a,footer .nav a:hover {
     color:#9bf0e1;
+    background: none;
 
 }
 
@@ -130,6 +133,13 @@ h3{
     letter-spacing: -0.04em;
 
 }
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+
+
+}
 #servicos h2, #serviços h3{
     color: #7c25f8;
 }
@@ -139,4 +149,13 @@ h3{
 #recursos h2{
     color:white
 }
+/*---rodapé---*/
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+.item-rede-social{
+float: left;
 
+}

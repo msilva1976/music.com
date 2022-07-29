@@ -1,10 +1,12 @@
 
 html, body,.capa{
     height: 100%;
+    overflow-x: hidden;
+    
 }
 
 body{
-   
+    
     background: url(./imagens/capa.png),url(./imagens/ruido.png),linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment :fixed ;
     
@@ -54,6 +56,7 @@ nav.navbar-transparente{
 
 /*imagem de capa*/
 .capa{
+    vertical-align: middle;
     display: table;
     width: 100%;
 
@@ -64,6 +67,7 @@ nav.navbar-transparente{
     color: white;
     display: table-cell;
     vertical-align: middle;
+    
 }
 /*imagem de botoes*/
 .btn-custon{
